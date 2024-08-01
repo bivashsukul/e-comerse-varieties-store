@@ -1,0 +1,359 @@
+:root{
+    --primary-color: rgb(11,181,48);
+    --secondary-color: rgb(36,122,55,0.9);
+    --transition:all 0.4s;
+    --border-radius:0.5rem;
+
+    --box-shadow:0.1rem 0.1rem 0.9rem rgb(205,202,202,0.5)
+}
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: .33s;
+    text-decoration: none;
+}
+.c_nav{
+    background-color:palegreen;
+}
+.menu{
+
+}
+.nav_top li a{
+    padding: 10px;
+    margin: 0 0px 0px 80px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    position: sticky;
+    color: rgb(109, 50, 50);
+    transition: .33s;
+    z-index: 100;
+}
+.registe{}
+.nav_top li a:hover{
+    border-bottom: 0;
+    color: rgb(88, 90, 196);
+}
+.nav_top li a:last-child{
+    margin-right: 0;
+}
+
+.logo{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   opacity: 1; 
+   transition: .33s;
+}
+.logo:hover{
+   opacity: 1; 
+ }
+.nav_bottom{
+    min-height: 10vh;
+}
+/*header top end */
+/* header ottom stat */
+.header_bottom{}
+.navbar_bottom{
+    padding: 8px;
+    background-color: rgb(128, 165, 139);
+}
+.nav_bottom a{
+    margin-left: 130px;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(109, 50, 50);
+    text-decoration: none;
+    transition: .33s;
+    
+    
+}
+.nav_bottom a:hover{
+    color: rgb(88, 90, 196);
+}
+/* header ottom end */
+
+/* baneer section start */
+.banner{
+        padding: 0 0 80px;
+        background-image: url(../images/back2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+  }
+  .c_toggoler{}
+.b_item{
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.banner--title{
+    width: 937px;
+    font-size:48px;
+    color: yellow;
+    border-radius: 1rem;
+}
+.banner-icon{
+    margin-right: 96px;
+    background-color: var(--primary-color);
+    padding: 8px;
+    width: 200px;
+    color: white;
+    font-size: 42px;
+}
+.b_h2{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    height: 50px;
+    padding: 16px;
+    width: 200px;
+    color: white;
+
+}
+/* baneer section end */
+
+/* product section start */
+.product{
+    padding: 50px 0;
+    background-color: aquamarine;
+    position: relative;
+}
+.sitebar{
+    margin-top: 300px;
+}
+.sitebar ul li{
+    list-style: none;
+}
+.b_item{}
+.catagorice{}
+.price_ranges,
+.shiping_option{}
+.sitbar_title{}
+/* short start */
+.left_short{}
+.left_short select{
+    padding: 8px;
+}
+
+
+.right_short{
+   margin-right: 207px;
+   position: relative;
+}
+
+.right_short input {
+    padding: 8px 8px 8px 40px;
+}
+.right_btn{
+    position: absolute;
+    border-radius: 0;
+    padding: 9px;
+    border: 1px solid;
+    background-color: #f2dcdc;
+}
+.right_btn:hover{
+    border: 1px solid;
+    background-color: #746f6f;
+}
+.right_btn i{}
+
+/* short end */
+
+/* product start */
+.p_card{
+    margin-top: 40px;
+    /* position: relative; */
+    background-color: aquamarine;
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(205,202,202,1);
+    border-radius: 3px;
+    transform: all .33s;
+    padding:10px;
+
+}
+.p_card:hover{
+    box-shadow: 0.1rem 0.1rem 1rem rgb(255, 0, 230);
+}
+.buddge {
+    position: absolute;
+    text-align: center;
+    width: 99px;
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+.buddge span{}
+.hr-design {
+    margin: 5px 0;
+    width: 98px;
+}
+.product_body{
+transition: .33s;
+}
+.product_img{}
+.product_img img{
+    height: 230px;
+    transition: .33s;
+    filter: saturate(1);
+}
+.p_card:hover .product_img img{
+    filter: saturate(1);
+}
+.product_name {
+    margin-top: 10px;
+    font-size: 27px;
+}
+.dot {
+    margin-left: 5px;
+    width: 26px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.product_des{}
+.product_des a{
+    text-decoration: none;
+}
+.product_price {
+    font-weight: 700;
+}
+.product_rating {
+    font-weight: 500;
+}
+.product_btn {
+    padding: 5px;
+    border-radius: 1;
+    background-color: rgb(187, 187, 78);
+    text-transform: uppercase;
+}
+.product_btn:hover {
+    background-color: rgb(255, 0, 251);
+}
+
+/* product end */
+
+/* pagination start here*/
+.pagination{
+ margin-top: 80px;
+}
+.p_btn {
+    border: none;
+    margin: 10px;
+    padding: 8px;
+    background-color: rgb(79, 227, 71);
+    color: rgb(205, 15, 226);
+}
+.p_btn:hover {
+    background-color: rgb(8, 52, 65);
+    color: rgb(254, 254, 254);
+}
+/* pagination end here*/
+
+/* footer start here */
+.footer{
+    background-color:rgb(43, 200, 85) ;
+    padding:16px;
+    color: #fff;
+    font-size: 2.8.0rem;
+}
+.footer-input {
+    padding: 6px;
+    border: 0;
+}
+.btn-subscribe {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 6px;
+    margin-left: -6px;
+    background-color: rgb(135, 98, 98);
+}
+.btn-subscribe:hover{
+    background-color: black;
+    color: azure;
+}
+.footer p{
+  
+}
+.left_footer{}
+.right_footer{}
+/* footer ends here */
+
+/* register section start header */
+.r-taitle{
+    font-size: 2rem;
+}
+.form-control label{
+  text-align: left;
+}
+.form-control input {
+    width: 550px;
+    padding: 8px;
+    border: .5px solid;
+}
+.name, .email {
+    margin-left: 26px;
+}
+.r_btn{
+
+}
+.register_btn {
+    text-transform: uppercase;
+    margin: 10px 0 0 341px;
+    background-color: rgb(13, 255, 0);
+    width: 33%;
+    padding: 1rem;
+}
+.register_btn:hover {
+    background-color: rgb(13, 255, 0);
+}
+.form-control{
+    margin: 0;
+}
+.logout_btn{}
+  /* register section ends header */
+
+
+/* profile section start here */
+ .profil{
+    margin-bottom: 20px;
+ }
+ .profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    filter: brightness(100%);
+ }
+ .profile_btn{
+    background-color: aqua;
+ }
+ .profile_btn:hover{
+    background-color: rgb(255, 0, 251);
+ }
+/* profile section end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

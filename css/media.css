@@ -1,0 +1,338 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* headder start */
+    .c_toggoler{
+        margin-left: 118px;
+    }
+    .nav_top li a {
+        margin: 20px 0px 0px 0px;
+
+       text-align: center;
+    }
+    .logo{
+        margin: 20px 0 0 100px;
+    }
+    .nav_bottom a {
+        margin-left: 0px;
+        font-size: 14px;
+    }  
+    /* header end */ 
+
+    /* banner sectio start here */
+    .banner{
+        padding: 0 0 50px;
+  }
+    /* banner title */
+    .banner--title {
+        width: 297px;
+        font-size: 23px;
+    }
+    /* banner title */
+    .b_item {
+        margin-top: 55px;
+        margin-left: 50px;
+    }
+
+    /* banner sectio end here */
+    
+    /* product section start here */
+    .sitebar{
+        margin: 0 0 40px 60px;
+    }
+    .sitbar_title {
+        margin-left: 9px;
+        font-size: 25px;
+    }
+
+    /* serch bar */
+    .right_short {
+        margin-right: 57px;
+    }
+    .left_short {
+        margin: 0 20px 22px 0;
+    }
+    .right_short input {
+        padding: 8px 15px;
+    }
+    /* product */
+    .p_card {
+        margin: 50px 0px 0;
+    }
+    .product_name {
+        font-size: 22px;
+    }
+    .dot {
+        margin-left: 15px;
+        width: 21px;
+        height: 20px;
+    }
+    /* product section end here */
+     /* pagination start here*/
+     .pagination {
+        margin-top: 55px;
+    }
+     .p_btn {
+        margin: 3px;
+        padding: 5px;
+     }
+   /* pagination end here*/
+   /* footer satrt here */
+   .btn-subscribe {
+        margin: 0 -20px 5px -13px;
+        border: 0;
+        /* margin-right: -20px;
+        border-radius: 0;
+        margin-bottom: 5px;
+        margin-left: -13px; */
+        background-color: rgb(135, 98, 98);
+     }
+   .right_footer {
+        margin: 23px 0 0;
+     }
+   /* footer end here */
+    /* register form start */
+    .name, .email {
+        margin-left: 0;
+    }
+    .form-control input {
+        width: 226px;
+        border: 0;
+    }
+       .register_btn {
+        width: 100%;
+        margin: 11px 0 0;
+       }
+       /* register form end */
+    
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* headder start */
+    .c_toggoler{
+        margin-left: 270px;
+    }
+    .nav_top li a {
+        margin-top: 20px;
+       text-align: center;
+    }
+    .logo{
+        margin: 20px 0 0 185px;
+    }
+    .nav_bottom a {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    /* header end */
+    /* banner start */
+    .banner{
+        padding: 0 0 50px;
+    }
+    .banner--title {
+        width: 515px;
+        font-size: 26px;
+    }
+    .banner-icon {
+        margin-right: 98px;
+        width: 368px;
+    }
+    .b_h2 {
+        font-size: 21px;
+        font-weight: 700;
+        width: 368px;
+    }
+    /* banner end */
+    /* product section start here */
+    .sitebar{
+        margin-top:0 ;
+        margin-bottom: 40px;
+    }
+    .sitbar_title {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .price_ranges {
+        position: absolute;
+        left: 165px;
+        bottom: 2435px;
+    }
+    .shiping_option {
+        position: absolute;
+        left: 331px;
+        bottom: 2527px;
+    }
+    /* serch bar */
+    .right_short {
+        margin-right: 59px;
+    }
+    .right_short input {
+        padding: 8px 8px;
+    }
+    /* product */
+    .p_card {
+        margin: 50px 74px 0;
+    }
+    .product_name {
+        font-size: 22px;
+    }
+    .dot {
+        margin-left: 15px;
+        width: 21px;
+        height: 20px;
+    }
+    /* product section end here */
+     /* footer section start here */
+   .left_footer {
+    margin-left: 22px;
+   }
+   .right_footer {
+    margin: 17px 45px 0 0;
+   }
+   /* footer section end here */
+   /* register form start */
+   .form-control input {
+    width: 240px;
+    padding: 8px;
+    border: .5px solid rgb(66, 64, 64);
+   }
+   .register_btn {
+    width: 95%;
+    margin: 11px 0 0 0;
+   }
+   /* register form end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .c_toggoler{
+        margin-left: 360px;
+    }
+    .nav_top li a {
+        margin-top: 20px;
+       text-align: center;
+    }
+    .logo{
+        margin: 20px 0 0 280px;
+    }
+    .nav_bottom a {
+        margin-left: 72px;
+    }
+    /* header end */
+    /* banner start */
+    .banner{
+        padding: 0 0 60px;
+    }
+    /* banner title */
+    .banner--title {
+        width: 697px;
+        font-size: 36px;
+    }
+    /* banner title */
+    .b_item {
+        margin-left: 7px;
+    }
+
+    /* banner end */
+    /* product section start here */
+    .sitebar{
+        margin-top:0;
+        margin-bottom: 40px;
+    }
+    .price_ranges {
+        position: absolute;
+        left: 250px;
+        bottom: 1392px;
+    }
+    .shiping_option {
+        position: absolute;
+        left: 483px;
+        bottom: 1485px;
+    }
+    .right_short input {
+        padding: 8px 8px 8px 20px;
+    }
+    .left_short select {
+        margin-right: 10px;
+        padding: 8px;
+    }
+    /* product section end here */
+     /* pagination start here*/
+    .pagination{
+        margin: 80px 0 0 80px;
+    }
+   /* pagination end here*/
+   /* footer section start here */
+   .left_footer {
+    margin-left: 70px;
+   }
+   .right_footer {
+    margin-top: 25px;
+    margin-right: 186px;
+   }
+   /* footer section end here */
+
+   /* register form start */
+   .form-control input {
+    width: 386px;
+    padding: 8px;
+    border: .5px solid;
+   }
+   .register_btn {
+    margin: 11px 0 0 180px;
+   }
+   /* register form end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logout_btn {
+        margin-left: 303px;
+       }
+       /* logout end */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .logout_btn {
+        margin-left: 368px;
+       }
+       /* logout end */
+       /* banner section */
+       .banner--title {
+        width: 1126px;
+    }
+       .banner-icon {
+        margin-right: 112px;
+    }
+       /* banner section */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    /* header start */
+    .nav_top li a {
+        padding: 12px;
+        margin: 0 0px 0px 135px;
+    }
+    /* header end */
+    /* banner start */
+    .banner--title {
+        width: 1296px;
+    }
+    .banner-icon {
+        margin-right: 165px;
+    }
+    /* banner end */
+    /* pagination start here*/
+    .pagination{
+        margin-left: 70px;
+    }
+   /* pagination end here*/
+   /* logout start */
+   .logout_btn {
+    margin-left: 425px;
+   }
+   /* logout end */
+   .form-control input {
+    width: 839px;
+}
+}
